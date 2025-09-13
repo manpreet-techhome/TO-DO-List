@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #f5f6fc;
+}
+a,
+button {
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.mainNav {
+  /* background-color: #263682; */
+  padding: 18px;
+  border-radius: 0 0 8px 8px;
+  background: #111633;
+}
+.navRight {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 12px;
+}
+.navLeft {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.mainHeading {
+  font-size: 30px;
+  font-weight: 500;
+  color: #ffffff;
+}
+.commonOuter {
+  margin: 24px;
+  padding: 24px;
+  height: calc(100vh - 128px);
+  overflow: auto;
+  background-color: #ffffff;
+  border-radius: 24px;
+}
+.todoSubSec {
+  border: 2px solid #f5f6fc;
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 24px;
+  height: 100%;
+}
+.controlInput {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+.productTitle {
+  font-size: 16px;
+  font-weight: 500;
+  color: #263682;
+  word-break: break-all;
+}
+.flexBox {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.headingMain {
+  color: #263682;
+  font-size: 24px;
+  font-weight: 500;
+  word-break: break-all;
+}
+.addBtnControl {
+  color: #636e9f !important;
+  text-align: center !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  border-left: 1px solid #d7deff;
+  border-right: 1px solid #d7deff;
+  background-color: #fff !important;
+  border-radius: 0 !important;
+  max-width: 40px;
+  padding: 5px 0px !important;
+  appearance: none !important;
+}
+
+.addBtnControl::placeholder {
+  color: #636e9f;
+}
+.addBtnControl::-webkit-outer-spin-button,
+.addBtnControl::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.continueAmountBtn {
+  border-radius: 30px;
+  background: #263682;
+  color: #f5f6fc;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.36px;
+  border: none;
+  padding: 12px 40px;
+}
+.pointHand {
+  cursor: pointer;
+}
+.addPRoductBx {
+  border: 2px solid #58c2e8;
+  color: #58c2e8;
+  padding: 12px 30px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 30px;
+  background-color: transparent;
+}
+.inputControl {
+  border: 1px solid #d7deff !important;
+  padding: 15px 24px;
+  border-radius: 50px;
+  box-shadow: none !important;
+  color: #263682 !important;
+}
+.inputControl::placeholder {
+  color: #263682;
+}
+.Toastify__progress-bar--error {
+  background: #111633 !important;
+}
+.form-check-input:focus {
+  border-color: rgba(0, 0, 0, 0.25) !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+.listBox {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.todoBtn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.EditBtn {
+  border: 1px solid #263682;
+  background-color: transparent;
+  padding: 5px 12px;
+  border-radius: 7px;
+}
+.EditBtn i.fa-solid {
+  color: #263682;
+}
+.addTodoBox .inputControl {
+  width: 70%;
+}
+.addTodoBox .continueAmountBtn {
+  padding: 12px 30px;
+}
+.swal-button--cancel {
+  border: 2px solid #58c2e8;
+  color: #58c2e8 !important;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 30px;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.swal-button--danger {
+  border-radius: 30px;
+  background: #263682 !important;
+  color: #f5f6fc !important;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.36px;
+  border: none;
+  padding: 12px 40px;
+}
+.swal-modal {
+  border-radius: 30px !important;
+}
+.swal-icon--warning {
+  border-color: #f86464 !important;
+}
+.swal-icon--warning__body,
+.swal-icon--warning__dot {
+  background-color: #f86464 !important;
+}
+.swal-title {
+  color: #263682;
+}
+.swal-text {
+  color: #636e9f !important;
+}
+.deleteBtn {
+  border: 1px solid #f86464;
+  background-color: transparent;
+  padding: 5px 12px;
+  border-radius: 7px;
+}
+.deleteBtn i.fa-solid {
+  color: #f86464;
+}
+.editInput {
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  box-shadow: none;
+  padding: 0;
+  border-bottom: 1px solid #d7deff !important;
+  color: #263682 !important;
+}
+.editInput:focus{
+  box-shadow: none !important;
+  border-color: initial;
+}
+
+.checkBlue label {
+  position: relative;
+  cursor: pointer;
+}
+
+.checkBlue label:before {
+  content: "";
+  -webkit-appearance: none;
+  background-color: #d7deff;
+  border: 1px solid #4659b5;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+    inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 8px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+
+.checkBlue input:checked+label:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 5px;
+  height: 11px;
+  border: solid #263682;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
