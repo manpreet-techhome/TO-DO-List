@@ -11,7 +11,7 @@ const MainLayout = () => {
             <Header />
             <div className='commonOuter'>
                 <Outlet />
-            </div> 
+            </div>  
         </>
     )
 }
